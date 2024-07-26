@@ -2,7 +2,7 @@
 const http = require("http");     
 
 // server should be dedicated to a specific port number
-const PORT = 8081;
+const PORT = 8082;
  
 
 //writehead is used to pass some status code, write is used to show response, respose end is used to release the response.
@@ -16,4 +16,4 @@ http.createServer((req, res)=> {
     console.log(`NodeJs Server is Up and Running Successfully on Port ${PORT}`)
 })
 
-// http://localhost:8081
+// http://localhost:8082
