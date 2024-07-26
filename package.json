@@ -1,0 +1,19 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "server appln",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "aditi": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "aditi"
+  ],
+  "author": "Aditi",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
